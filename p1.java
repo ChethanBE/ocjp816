@@ -4,7 +4,7 @@ String name();
 int priority() default 0;
 }
  
- @Resource(name=“Customer1”, priority=100)  class ProcessOrders {
+@Resource(name=“Customer1”, priority=100)  class ProcessOrders {
 	
 }
 
@@ -22,9 +22,7 @@ Examine this code fragment:
 Which two annotations may be applied at Loc1 in the code fragment? (Choose two.)
 
 A. @Resource(priority=100)
-
 B. @Resource(priority=0)
-
 C. @Resource(name=“Customer1”, priority=100)
 D. @Resource(name=“Customer1”)
 E. @Resource
